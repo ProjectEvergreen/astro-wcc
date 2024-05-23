@@ -5,7 +5,7 @@ export default function astroWCC() {
       "astro:config:setup": ({ updateConfig, addRenderer, injectScript }) => {
         addRenderer({
           name: "astro-wcc",
-          serverEntrypoint: "astro-wcc/server.js"
+          serverEntrypoint: "@projectevergreen/astro-wcc/server.js"
         });
       }
     }
