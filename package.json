@@ -1,6 +1,6 @@
 {
   "name": "@projectevergreen/astro-wcc",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "An Astro integration for SSR Web Components using WCC",
   "main": "index.js",
   "type": "module",
