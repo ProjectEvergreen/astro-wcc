@@ -17,6 +17,18 @@ An [Astro](https://astro.build/) integration for SSR Web Components using [WCC](
       integrations: [ astroWcc() ]
     });
     ```
+1. You can now use a component in an Astro file
+    ```html
+    <!-- src/pages/index.astro -->
+    <html lang="en">
+      <head>
+        <script src="../components/greeting.js"></script>
+      </head>
+      <body>
+        <x-greeting></x-greeting>
+      </body>
+    </html>
+    ```
 
 ## Caveats
 
