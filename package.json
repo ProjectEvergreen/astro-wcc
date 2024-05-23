@@ -7,6 +7,9 @@
   "author": "Owen Buckley <owen@thegreenhouse.io>",
   "homepage": "https://github.com/ProjectEvergreen/astro-wcc#readme",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ProjectEvergreen/astro-wcc.git"
