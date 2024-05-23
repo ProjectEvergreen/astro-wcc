@@ -6,12 +6,12 @@ An [Astro](https://astro.build/) integration for SSR Web Components using [WCC](
 
 1. Install the plugin into your Astro project
     ```sh
-    $ npm i astro-wcc
+    $ npm i @projectevergreen/astro-wcc
     ```
 1. Then add it to your Astro configuration file
     ```js
     import { defineConfig } from 'astro/config';
-    import astroWcc from 'astro-wcc';
+    import astroWcc from '@projectevergreen/astro-wcc';
 
     export default defineConfig({
       integrations: [ astroWcc() ]
