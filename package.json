@@ -10,6 +10,10 @@
   "publishConfig": {
     "access": "public"
   },
+  "files": [
+    "index.js",
+    "server.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ProjectEvergreen/astro-wcc.git"
