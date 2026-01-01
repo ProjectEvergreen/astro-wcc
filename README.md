@@ -2,11 +2,13 @@
 
 An [Astro](https://astro.build/) integration for SSR Web Components using [WCC](https://github.com/ProjectEvergreen/wcc).
 
+> See this [demonstration repo](https://github.com/thescientist13/astro-wcc) for an example of using this plugin.
+
 ## Usage
 
 1. Install the plugin into your Astro project
     ```sh
-    $ npm i @projectevergreen/astro-wcc
+    $ npm i -D @projectevergreen/astro-wcc
     ```
 1. Then add it to your Astro configuration file
     ```js
