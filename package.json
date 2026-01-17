@@ -2,18 +2,10 @@
   "name": "@projectevergreen/astro-wcc",
   "version": "0.2.1",
   "description": "An Astro integration for SSR Web Components using WCC",
-  "main": "index.js",
   "type": "module",
   "author": "Owen Buckley <owen@thegreenhouse.io>",
   "homepage": "https://github.com/ProjectEvergreen/astro-wcc#readme",
   "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  },
-  "files": [
-    "index.js",
-    "server.js"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ProjectEvergreen/astro-wcc.git"
@@ -24,6 +16,16 @@
     "Web Components",
     "SSR"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.js",
+    "server.js"
+  ],
+  "exports": {
+    ".": "./index.js"
+  },
   "peerDependencies": {
     "astro": "^5.16.6"
   },
