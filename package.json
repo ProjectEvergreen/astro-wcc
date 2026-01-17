@@ -24,7 +24,8 @@
     "server.js"
   ],
   "exports": {
-    ".": "./index.js"
+    ".": "./index.js",  
+    "./server.js": "./server.js"
   },
   "peerDependencies": {
     "astro": "^5.16.6"
