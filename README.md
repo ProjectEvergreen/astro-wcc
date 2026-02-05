@@ -1,6 +1,6 @@
 # astro-wcc
 
-An [Astro](https://astro.build/) integration for SSR Web Components using [WCC](https://github.com/ProjectEvergreen/wcc).
+An [Astro](https://astro.build/) integration for SSR Web Components using [WCC](https://www.wcc.dev).
 
 > See this [demonstration repo](https://github.com/thescientist13/astro-wcc) for an example of using this plugin.
 
